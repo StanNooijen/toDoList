@@ -1,0 +1,53 @@
+.container {
+    margin-top: 3rem;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    scale: 1.5;
+}
+
+.containerItems {
+    margin-top: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#items{
+    display: flex;
+    flex-direction: row;
+}
+
+#itemRemove{
+    height: auto;
+    width: auto;
+    font-size: 100%;
+}
+
+#itemEdit{
+    margin-left: auto;
+    margin-right: 1rem;
+    height: auto;
+    width: auto;
+    font-size: 100%;
+}
+
+#itemText{
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+#itemMaker{
+    align-self: center;
+    width: 20%;
+}
+
+#itemsMade{
+    order: 2;
+    margin-top: 1rem;
+    border-width: 1px;
+    height: 100%;
+    border-style: solid;
+    align-self: center;
+    width: 35%;
+}
