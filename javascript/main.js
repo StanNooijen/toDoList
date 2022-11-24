@@ -24,7 +24,7 @@ function Remove(R){
 }
 
 function Edit(I){
-    I. = "<input id='itemMaker' type='text'><button id='itemMakerButton'>&#10004;</button>"
+    I = "<input id='itemMaker' type='text'><button id='itemMakerButton'>&#10004;</button>"
     items.splice(R,1, Edit)
     printList();
 }
